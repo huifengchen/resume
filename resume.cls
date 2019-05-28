@@ -404,7 +404,7 @@
 %   {<degree>}      % #6
 \NewDocumentCommand{\education}{m o m m m m}{
   \ifdef{\@zh}{%
-    \IfValueTF{#2}{#2}{现在} & \textbf{#3} \textbullet #4 \\*
+    \IfValueTF{#2}{#2}{2018.06} & \textbf{#3} \textbullet #4 \\*
     #1 & #5 \textbullet #6 \\
   }{%
     \IfValueTF{#2}{#2}{present} & #4, \textbf{#3} \\*
