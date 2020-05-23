@@ -27,8 +27,8 @@
 
 \profile{
   \mobile{135-0937-6427}
-  \email{ifengyxdg@gmail.com}
-  \github{chenhuifeng} \\
+  \email{huifeng\_chen@foxmail.com} \\
+  %\github{chenhuifeng} \\
   \university{福建师范大学}
   \degree{软件工程 \textbullet 硕士}
   \birthday{1992-08-15}
@@ -45,32 +45,8 @@
 % Summary & Objectives
 %======================================================================
 {\onehalfspacing\hspace{2em}%
-计算机专业本科，软件工程专业硕士，有扎实的计算机基础知识，有2年多的Java开发经验，擅长数据采集，热衷于数据分析，对数据挖掘，人工智能非常感兴趣，并希望从事相关工作。
+计算机专业本科，软件工程专业硕士，有扎实的计算机基础知识，有2年的工作经验，熟悉JAVA开发，擅长数据采集，有大数据开发经验，对互联网行业非常感兴趣，并希望从事相关工作。
 \par}
-
-%======================================================================
-\sectionTitle{技能和语言}{\faWrench}
-%======================================================================
-\begin{competences}
-  \comptence{工具}{%
-     IDEA, VScode, Kettle, Ansible, Jenkins, Docker, Git, SVN, Gradle, Maven
-      }
-  \comptence{编程}{%
-    Java, Scala, Shell
-  }
-  \comptence{大数据}{%
-    CDH, Spark, HDFS, Impala, Hive, Hbase, Spark, Solr, Kafka, 数据仓库
-  }
-  \comptence{前端}{%
-    React, Echart, 阿里飞冰, Tableau
-  }
-  \comptence{框架}{%
-    Spring Cloud, Ant Design
-  }
-  \comptence{\icon{\faLanguage} 语言}{
-    \textbf{英语} --- 读写（优良）, 听说（日常交流）
-  }
-\end{competences}
 
 %======================================================================
 \sectionTitle{教育背景}{\faGraduationCap}
@@ -94,16 +70,69 @@
     {学士}
 \end{educations}
 
+
 %======================================================================
-\sectionTitle{计算机技能}{\faCogs}
+\sectionTitle{专业技能}{\faCogs}
 %======================================================================
 \begin{itemize}
-  \item 熟悉CDH平台组件，并使用spark，scala进行数据分析
-  \item 熟悉Java编码规范并有code review相关工作经验
-  \item 熟悉Spirng cloud，Ant Design框架
-  \item 擅长使用Kettle进行数据采集，并了解Sqoop, Flume数据采集组件
-  \item 擅长使用Ansible进行脚本编排，并通过Jenkins自动化打包、部署、测试应用
+  \item 熟悉Java语法，多线程、集合等基础框架，熟悉Java编码规范并有code review相关工作经验，对JVM原理有初步的理解，包括内存模型、垃圾回收机制
+  \item 熟悉Redis集群的搭建，熟悉备份策略，了解高并发下缓存穿透缓存雪崩解决方案
+  \item 熟练使用Mysql关系型数据库，有过Hbase、 Hive、 Impala开发经验
+  \item 熟悉Kettle数据采集，并了解Sqoop, Flume数据采集组件
+  \item 熟悉Elasticsearch、Logstash、Kibana而成的日志收集系统以及搜索系统
+   \item 熟悉应用服务器软件Docker等容器配置和部署，熟悉Linux系统
+  \item 熟练掌握Spring Cloud、MyBatis等主流开源框架，以及Gradle、Maven等项目构建工具
 \end{itemize}
+
+%======================================================================
+\sectionTitle{工作经历}{\faBriefcase}
+%======================================================================
+\begin{experiences}
+  \experience%
+    [2019.07]%
+    {现在}%
+    {JAVA开发工程师 @ 锐捷网络股份有限公司（上市公司）}%
+    [\begin{itemize}
+      \item {\bfseries 项目名称} ：RG-5GNR-OMC
+      \item {\bfseries 项目描述}：RG-5GNR-OMC是锐捷研发的一个管理5G基站的网管应用，主要客户群体是三大运营商。
+      \item {\bfseries 涉及技术}: Spring Cloud、MyBatis、Redis、MySQL、Dubbo、RocketMQ、ELK等
+      \item {\bfseries 工作内容}：\\ 
+      1. 对于5G基站上报的配置数据报文，使用orika完成配置信息到java对象的映射，其中采用策略设计模式解析报文。并采用Redisson分布式锁解决高并发下数据重复的问题。\\
+      2. 使用keepalived 实现服务节点的高可用并配置虚拟IP,使用nginx配置负载均衡并增强安全性改访问方式为https。\\
+      3. 采用Elasticsearch , Logstash, Kibana这套经典组合，提升开发	人员线上问题的错误日志定位效率
+      \item {\bfseries 担任角色}：\\
+      1. 负责JAVA后端开发（配置管理模块）\\
+      2. 负责nginx、keepalived部署及配置 \\ 
+      3. 负责搭建ELK 分布式日志系统
+      \item {\bfseries 项目收获}：
+      通过该项目的开发，让我对高并发，大数据量等业务场景有了自己的认识，也知道在什么样的场景下，结合Redis以及RocketMQ等中间件的使用提高服务性能效率，以及面对高并发的场景做怎样的及时应对。
+    \end{itemize}]
+  
+  \separator{0.5ex}
+
+  \separator{0.5ex}
+  \experience%
+    [2018.07]%
+    {2019.07}%
+    {大数据研发工程师 @ 锐捷网络股份有限公司（上市公司）}%
+    [\begin{itemize}
+      \item {\bfseries 项目名称} ： RG-iData
+      \item {\bfseries 项目描述}：RG-iData是锐捷推出的高校大数据平台，平台数据一部分来源于高校老师，学生使用的锐捷的路由器，交换机等网络设备的上网数据，另一部分来源于高校教务系统数据。该平台主要是对学生上网产生的数据进行分析，帮助学校老师实时了解学生位置，上课考勤情况，学校舆情等。
+      \item {\bfseries 涉及技术}: Kettle、CDH、Spark、Kafka、Solr 、Hive、 Hbase等
+      \item {\bfseries 工作内容}：\\
+      1. 使用Kettle采集各大高校教务数据，搜索日志，上网记录等内容 \\ 
+      2. 使用SNMP协议采集AP信息，接着把采集数据吐到Kafka中，然后通过Spark Streaming接收数据并进行处理，按周、月导出AP接入人数及AP分布情况相关信息。\\
+      3. 使用Solr和Ik分词器优化了iData搜索关键词业务，提高了对学生搜索记录和上网记录的检索准确度。\\
+      4. 采用React技术，使用阿里Ant Design框架，完成舆情分析前端页面开发。\\
+      5. 学习阿里Java编码规范并负责iData中代码审查，主要负责idata-api及中spark中持久化部分代码审查工作,改进iData安装包。
+     \item {\bfseries 担任角色}：\\
+      1. 负责平台间数据对接工作 \\
+      2. 负责JAVA后端开发 \\
+      3. 负责部分前端开发 
+      \item {\bfseries 项目收获}：
+      通过该项目的开发，初次接触到敏捷开发方法在具体项目中的应用，明白了架构设计以及开发人员开发规范在软件开发过程中的重要性。对微服务设计模式有了更深一步的认识，对联调、集成测试、文档的编写、数据库的设计等一些工作有了初步的接触，培养了自己的产品意识以及owner意识。也让自己有了不同传统企业的代码和业务思想，从需求评审、视觉评审、到自己的概要设计、详细设计、开发、联调、提测、灰度、生产上线每个环节，不断收获总结。对自己的代码有了严格的要求，leader每次review代码也能发现我的成长。\\
+    \end{itemize}]
+\end{experiences}
 
 %======================================================================
 \sectionTitle{获奖情况}{\faCode}
@@ -112,8 +141,6 @@
   \item 2017.11 获得硕士研究生国家奖学金
   \item 2017.09 获得“华为杯”第十四届全国研究生数学建模竞赛参与奖
   \item 2016.12 福建师范大学研究生三等学业奖学金
-  % \item 2016.08 2016年全国大学生物联网设计竞赛参与奖
-  \item 2015.12 福建师范大学研究生三等学业奖学金
 \end{itemize}
 
 %======================================================================
@@ -127,33 +154,5 @@
   \item 2018.03 在《软件工程》杂志发表一篇中文论文
    \link{http://www.cnki.com.cn/Article/CJFDTotal-ZGGC201803002.htm}{\texttt{UML活动图的正确性检测}}（第一作者）
 \end{itemize}
-
-%======================================================================
-\sectionTitle{工作经历}{\faBriefcase}
-%======================================================================
-\begin{experiences}
-  \experience%
-    [2018.07]%
-    {现在}%
-    {大数据开发工程师 @ 锐捷网络股份有限公司（上市公司）}%
-    [\begin{itemize}
-      \item RG-iData是锐捷推出的高校大数据平台
-      \item 负责iData搜索关键词业务的优化，搜索关键词业务是对学生搜索记录进行分词然后提取热点词汇及敏感词汇，由于分词的结果得到的热词都是单个字或者字符，难以满足需求，采用自然语言处理\link{https://github.com/hankcs/HanLP}{\texttt{HanLP}}算法后有较大改进。
-      \item 负责iData高校数据对接，使用Kettle采集各大高校教务数据，搜索日志等内容
-      \item 负责iData昆明无线城市中按周、月导出AP接入人数及AP分布情况相关信息。首先使用SNMP协议采集AP信息，接着把采集数据吐到Kafka中，然后通过Spark Streaming接收数据并进行处理。
-      \item 学习阿里Java编码规范并负责iData中代码审查，主要负责idata-api及中spark中持久化部分代码审查工作
-      \item  改进iData安装包，采用Ansible优化打包和升级脚步，并采用Jenkins优化打包、部署步骤
-    \end{itemize}]
-
-  \separator{0.5ex}
-  \experience%
-    [2017.08]%
-    {2017.09}%
-    {软件研发实习生 @ 锐捷网络股份有限公司（上市公司）}%
-    [\begin{itemize}
-      \item 学习php，并设计linux下php源码保护方案，如：zend guard软件、php-beast、apc等六种方案。根据是否付费，性能耗损情况，内存占用情况，选出两种方案，使用apache中ab压力测试对这两种方案进行性能对比。
-      \item 负责锐捷网络推出的“云课堂”cmr 和web端作业空间模块部分的测试
-    \end{itemize}]
-\end{experiences}
 
 \end{document}
